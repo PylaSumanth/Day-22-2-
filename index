@@ -1,0 +1,127 @@
+<html>
+<head>
+    <style>
+        .box1{width:50px;
+              Height:800px;
+              background-color:aquamarine;
+              animation-name:example1;
+              animation-duration:3s;
+              animation-iteration-count: infinite;
+              animation-direction: reverse;
+              position: absolute;
+              margin:left 30px;}
+
+        @Keyframes example1{
+            0%{background-color: blue;
+               top:20px;}
+
+           25%{background-color: blueviolet;
+               top: 110px;}
+
+           50%{background-color:red;
+                top: 180px;} 
+
+           75%{background-color:lightseagreen; 
+               top: 280px;}   
+               
+           100%{background-color:limegreen;
+                top: 600px;}  
+           }
+
+           .box2{width: 50px;
+                 Height:800px;
+                 Position:absolute;
+                 left:100px;
+                 animation-name:example2;
+                 animation-duration: 4s;
+                 animation-direction: reverse;
+                 animation-iteration-count: infinite;
+                 background-color:orangered;
+                }
+            @keyframes example2{
+                
+                0%{Background-color:limegreen;
+                   top: 10px;}
+
+                25%{background-color:silver;
+                    top:120 px;}   
+
+                50%{background-color:palevioletred;
+                    top: 180px;}    
+
+                75%{background-color: springgreen;
+                    top: 260px;}    
+
+                100%{background-color:palegreen;
+                     top: 500px;}  
+                }    
+
+
+                
+            .box3{width:50px;
+                  Height:800px;
+                  left: 180Px;
+                  Position:absolute;
+                  background-color: aquamarine;
+                  animation-duration: 5s;
+                  animation-iteration-count: infinite;
+                  animation-direction: reverse;
+                  animation-name: example3;
+                  } 
+
+            @keyframes example3{
+                0%{Background-color:limegreen;
+                   top: 10px;}
+
+                25%{background-color:silver;
+                    top:120 px;}   
+
+                50%{background-color:palevioletred;
+                    top: 180px;}    
+
+                75%{background-color: springgreen;
+                    top: 260px;}    
+
+                100%{background-color:palegreen;
+                     top: 500px;}  
+                   }    
+
+            .box4{width:50px;
+                  Height:800px;
+                  left:260px;
+                  Position:absolute;
+                  animation-name:example4;
+                  animation-duration:6s;
+                  background-color:silver;
+                  animation-iteration-count: infinite;
+                  animation-direction: reverse;}  
+                  
+            @keyframes example4{
+                0%{Background-color:Blue;
+                   top: 10px;}
+
+                25%{background-color:lavenderblush;
+                    top:120 px;}   
+
+                50%{background-color:palevioletred;
+                    top: 180px;}    
+
+                75%{background-color: lawngreen;
+                    top: 260px;}    
+
+                100%{background-color:orangered;
+                     top: 500px;}  
+                   }
+            
+
+            
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="box1"></h1>
+        <h1 class="box2"></h1>
+        <h1 class="box3"></h1>
+        <h1 class="box4"></h1>
+    </div>
+</body>
